@@ -278,7 +278,7 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset//survivor/raf_lieutenantr
+/datum/equipment_preset/survivor/raf_lieutenant
 	name = "Survivor - RAF Commander"
 	assignment = "RAF - Commander"
 	faction = FACTION_RAF
