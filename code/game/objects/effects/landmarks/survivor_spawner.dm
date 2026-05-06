@@ -185,25 +185,25 @@
 	intro_text = list("<h2>You are a survivor of a CLF raid!</h2>",\
 	"<span class='notice'>You are NOT aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to heal up and survive. If you want to assault the hive - adminhelp.</span>")
-	story_text = "You are a soldier fighting for the Colonial Liberation Front. After a rough landing that disabled your strike craft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and the cell lead has ordered everyone to hold here until further orders."
+	story_text = "You are a soldier fighting for the Colonial Liberation Front. After a rough landing that disabled your strike croaft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and the cell lead has ordered everyone to hold here until further orders."
 
 /obj/effect/landmark/survivor_spawner/clf_lead/shivas
 	intro_text = list("<h2>You are a survivor of a CLF raid!</h2>",\
 	"<span class='notice'>You are NOT aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to heal up and survive. If you want to assault the hive - adminhelp.</span>")
-	story_text = "You are the leader of a squad fighting for the Colonial Liberation Front. After a rough landing that disabled your strike craft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and you ordered everyone to hold here until you can come up with a new plan."
+	story_text = "You are the leader of a squad fighting for the Colonial Liberation Front. After a rough landing that disabled your strike croaft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and you ordered everyone to hold here until you can come up with a new plan."
 
 /obj/effect/landmark/survivor_spawner/clf_engi/shivas
 	intro_text = list("<h2>You are a survivor of a CLF raid!</h2>",\
 	"<span class='notice'>You are NOT aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to heal up and survive. If you want to assault the hive - adminhelp.</span>")
-	story_text = "You are an engineer fighting for the Colonial Liberation Front. After a rough landing that disabled your strike craft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and the cell lead has ordered everyone to hold here until further orders."
+	story_text = "You are an engineer fighting for the Colonial Liberation Front. After a rough landing that disabled your strike croaft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and the cell lead has ordered everyone to hold here until further orders."
 
 /obj/effect/landmark/survivor_spawner/clf_medic/shivas
 	intro_text = list("<h2>You are a survivor of a CLF raid!</h2>",\
 	"<span class='notice'>You are NOT aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to heal up and survive. If you want to assault the hive - adminhelp.</span>")
-	story_text = "You are a doctor fighting for the Colonial Liberation Front. After a rough landing that disabled your strike craft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and the cell lead has ordered everyone to hold here until further orders."
+	story_text = "You are a doctor fighting for the Colonial Liberation Front. After a rough landing that disabled your strike croaft, your cell successfully launched a raid against the corporate parasitic scum lording over this colony. However, the expected response from security forces never arrived, and the colony soon fell silent. Strange noises have been heard coming from the darkness that no one can identify, and the cell lead has ordered everyone to hold here until further orders."
 
 //Kutjevo's CLF survivors//
 
@@ -624,7 +624,7 @@
 	intro_text = list("<h2>You are a member of a UPP recon force!</h2>",\
 	"<span class='notice'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to survive. You believe a second dropship crashed somewhere to the south east, which was carrying additional weapons</span>")
-	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your craft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
+	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your croaft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
 	spawn_priority = SPAWN_PRIORITY_LOW
 
 /obj/effect/landmark/survivor_spawner/upp_sapper
@@ -635,7 +635,7 @@
 	intro_text = list("<h2>You are a member of a UPP recon force!</h2>",\
 	"<span class='notice'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to survive. You believe a second dropship crashed somewhere to the south east, which was carrying additional weapons</span>")
-	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your craft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
+	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your croaft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
 	spawn_priority = SPAWN_PRIORITY_MEDIUM
 
 /obj/effect/landmark/survivor_spawner/upp_medic
@@ -646,7 +646,7 @@
 	intro_text = list("<h2>You are a member of a UPP recon force!</h2>",\
 	"<span class='notice'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to survive. You believe a second dropship crashed somewhere to the south east, which was carrying additional weapons</span>")
-	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your craft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
+	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your croaft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
 	spawn_priority = SPAWN_PRIORITY_MEDIUM
 
 /obj/effect/landmark/survivor_spawner/upp_specialist
@@ -657,7 +657,7 @@
 	intro_text = list("<h2>You are a member of a UPP recon force!</h2>",\
 	"<span class='notice'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to survive. You believe a second dropship crashed somewhere to the south east, which was carrying additional weapons</span>")
-	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your craft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
+	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your croaft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
 	spawn_priority = SPAWN_PRIORITY_HIGH
 
 /obj/effect/landmark/survivor_spawner/squad_leader
@@ -668,7 +668,7 @@
 	intro_text = list("<h2>You are a member of a UPP recon force!</h2>",\
 	"<span class='notice'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to survive. You believe a second dropship crashed somewhere to the south east, which was carrying additional weapons</span>")
-	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your craft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
+	story_text = "Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your croaft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenomorphs! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe an American rescue force is en route."
 	spawn_priority = SPAWN_PRIORITY_VERY_HIGH
 
 /// IASF ///
@@ -727,57 +727,57 @@
 	story_text = "<p style='font-size:95%; color:#A6A6A6;'>Outpost Souter was your final posting before withdrawal. With Weyland-Yutani buying out Hybrisa, the TWE began pulling its forces off-world — the IASF included. Your Regiment was standing down, preparing to hand over control during the transition. Then the outbreak hit. You've spent the last weeks barely holding the outpost together, repelling wave after wave while sheltering what few survivors you could. Now, only your squad remains. The outpost is falling apart, the armoury's dry, and the dropship in the hangar still has no fuel. A distress signal was sent over a week ago. All you can do now is hold your ground — and pray someone answers.</p>"
 	spawn_priority = SPAWN_PRIORITY_VERY_HIGH
 
-/// RAF ///
+/// ROAF ///
 
-/obj/effect/landmark/survivor_spawner/raf
+/obj/effect/landmark/survivor_spawner/roaf
 	icon_state = "surv_twe"
 
-/obj/effect/landmark/survivor_spawner/twe/raf/paratrooper
-	equipment = /datum/equipment_preset/survivor/raf/paratrooper
-	synth_equipment = /datum/equipment_preset/synth/survivor/raf_synth
-	CO_equipment = /datum/equipment_preset/survivor/hybrisa/raf_commander
-	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the RAF and IASF Parachute Regiment!</h2>",\
+/obj/effect/landmark/survivor_spawner/twe/roaf/paratrooper
+	equipment = /datum/equipment_preset/survivor/roaf/paratrooper
+	synth_equipment = /datum/equipment_preset/synth/survivor/roaf_synth
+	CO_equipment = /datum/equipment_preset/survivor/hybrisa/roaf_commander
+	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the ROAF and IASF Parachute Regiment!</h2>",\
 	"<span class='notice' style='color:#A6A6A6;'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger' style='color:#7F2F2B;'>Your primary objective is to survive.</span>")
 	story_text = "<p style='font-size:95%; color:#A6A6A6;'>Outpost Aegis — RAF training ground of TWE on LV-773 "Aegis Ridge". Only your squad remains. Supplies are gone. Evac is impossible.This wasn’t an accident. Weyland-Yutani is involved.Distress signal sent. Hold position.</p>"
 	spawn_priority = SPAWN_PRIORITY_LOW
 
-/obj/effect/landmark/survivor_spawner/twe/raf/engi
-	equipment = /datum/equipment_preset/survivor/raf/engi
-	synth_equipment = /datum/equipment_preset/synth/survivor/raf_synth
-	CO_equipment = /datum/equipment_preset/survivor/hybrisa/raf_commander
-	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the RAF and IASF Parachute Regiment!</h2>",\
+/obj/effect/landmark/survivor_spawner/twe/roaf/engi
+	equipment = /datum/equipment_preset/survivor/roaf/engi
+	synth_equipment = /datum/equipment_preset/synth/survivor/roaf_synth
+	CO_equipment = /datum/equipment_preset/survivor/hybrisa/roaf_commander
+	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the ROAF and IASF Parachute Regiment!</h2>",\
 	"<span class='notice' style='color:#A6A6A6;'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger' style='color:#7F2F2B;'>Your primary objective is to survive.</span>")
 	story_text = "<p style='font-size:95%; color:#A6A6A6;'>Outpost Aegis — RAF training ground of TWE on LV-773 "Aegis Ridge". Only your squad remains. Supplies are gone. Evac is impossible.This wasn’t an accident. Weyland-Yutani is involved.Distress signal sent. Hold position.</p>"
 	spawn_priority = SPAWN_PRIORITY_MEDIUM
 
 
-/obj/effect/landmark/survivor_spawner/twe/raf/medic
-	equipment = /datum/equipment_preset/survivor/raf/medic
-	synth_equipment = /datum/equipment_preset/synth/survivor/raf_synth
-	CO_equipment = /datum/equipment_preset/survivor/hybrisa/raf_commander
-	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the RAF and IASF Parachute Regiment!</h2>",\
+/obj/effect/landmark/survivor_spawner/twe/roaf/medic
+	equipment = /datum/equipment_preset/survivor/roaf/medic
+	synth_equipment = /datum/equipment_preset/synth/survivor/roaf_synth
+	CO_equipment = /datum/equipment_preset/survivor/hybrisa/roaf_commander
+	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the ROAF and IASF Parachute Regiment!</h2>",\
 	"<span class='notice' style='color:#A6A6A6;'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger' style='color:#7F2F2B;'>Your primary objective is to survive.</span>")
 		story_text = "<p style='font-size:95%; color:#A6A6A6;'>Outpost Aegis — RAF training ground of TWE on LV-773 "Aegis Ridge". Only your squad remains. Supplies are gone. Evac is impossible.This wasn’t an accident. Weyland-Yutani is involved.Distress signal sent. Hold position.</p>"
 	spawn_priority = SPAWN_PRIORITY_MEDIUM
 
-/obj/effect/landmark/survivor_spawner/twe/raf/pilot
-	equipment = /datum/equipment_preset/survivor/raf/pilot
-	synth_equipment = /datum/equipment_preset/synth/survivor/raf_synth
-	CO_equipment = /datum/equipment_preset/survivor/hybrisa/raf_commander
-	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the RAF and  IASF Parachute Regiment!</h2>",\
+/obj/effect/landmark/survivor_spawner/twe/roaf/pilot
+	equipment = /datum/equipment_preset/survivor/roaf/pilot
+	synth_equipment = /datum/equipment_preset/synth/survivor/roaf_synth
+	CO_equipment = /datum/equipment_preset/survivor/hybrisa/roaf_commander
+	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the ROAF and  IASF Parachute Regiment!</h2>",\
 	"<span class='notice' style='color:#A6A6A6;'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger' style='color:#7F2F2B;'>Your primary objective is to survive.</span>")
 		story_text = "<p style='font-size:95%; color:#A6A6A6;'>Outpost Aegis — RAF training ground of TWE on LV-773 "Aegis Ridge". Only your squad remains. Supplies are gone. Evac is impossible.This wasn’t an accident. Weyland-Yutani is involved.Distress signal sent. Hold position.</p>"
 	spawn_priority = SPAWN_PRIORITY_HIGH
 
-/obj/effect/landmark/survivor_spawner/twe/raf/squad_leader
-	equipment = /datum/equipment_preset/survivor/raf/squad_leader
-	synth_equipment = /datum/equipment_preset/synth/survivor/raf_synth
-	CO_equipment = /datum/equipment_preset/survivor/hybrisa/raf_commander
-	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the RAF and  IASF Parachute Regiment!</h2>",\
+/obj/effect/landmark/survivor_spawner/twe/roaf/squad_leader
+	equipment = /datum/equipment_preset/survivor/roaf/squad_leader
+	synth_equipment = /datum/equipment_preset/synth/survivor/roaf_synth
+	CO_equipment = /datum/equipment_preset/survivor/hybrisa/roaf_commander
+	intro_text = list("<h2 style='color:#2F3E66; font-size:125%;'>You are a member of the ROAF and  IASF Parachute Regiment!</h2>",\
 	"<span class='notice' style='color:#A6A6A6;'>You ARE aware of the xenomorph threat.</span>",\
 	"<span class='danger' style='color:#7F2F2B;'>Your primary objective is to survive.</span>")
 		story_text = "<p style='font-size:95%; color:#A6A6A6;'>Outpost Aegis — RAF training ground of TWE on LV-773 "Aegis Ridge". Only your squad remains. Supplies are gone. Evac is impossible.This wasn’t an accident. Weyland-Yutani is involved.Distress signal sent. Hold position.</p>"

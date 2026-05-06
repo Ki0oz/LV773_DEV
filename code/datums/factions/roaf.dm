@@ -1,5 +1,5 @@
-/datum/faction/raf
-	name = "RAF - Royal Air Force"
+/datum/faction/roaf
+	name = "ROAF - Royal Orbital Air Force"
 	faction_tag = FACTION_RAF
 	base_icon_file = 'icons/mob/hud/factions/twe.dmi'
 
@@ -29,4 +29,4 @@
 		if (JOB_TWE_RAF_SYNTH)
 			hud_icon_state = "synth"
 	if(hud_icon_state)
-		holder.overlays += image(override_icon_file ? override_icon_file : base_icon_file, human, "raf_[hud_icon_state]")
+		holder.overlays += image(override_icon_file ? override_icon_file : base_icon_file, human, "roaf_[hud_icon_state]")

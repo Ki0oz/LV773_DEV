@@ -47,7 +47,7 @@
 // Landing Zone 1
 
 /area/lv773/outdoors/landing_zone_1
-	name = "Aegis Ridge RAF - Primary Landing Zone - Landing Zone One"
+	name = "Aegis Ridge ROAF - Primary Landing Zone - Landing Zone One"
 	icon_state = "medical_lz1"
 	is_resin_allowed =  FALSE
 	is_landing_zone = TRUE
@@ -56,68 +56,68 @@
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/main_checkpoint
-	name = "Aegis Ridge RAF - Primary Landing Zone - Landing Zone One - Checkpoint"
+	name = "Aegis Ridge ROAF - Primary Landing Zone - Landing Zone One - Checkpoint"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/technical_corridor
-	name = "Aegis Ridge RAF - Primary Landing Zone - Landing Zone One - Technical Corridor"
+	name = "Aegis Ridge ROAF - Primary Landing Zone - Landing Zone One - Technical Corridor"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/main_hangar_bay
-	name = "Aegis Ridge RAF - Hangars - Landing Zone One - Main Hangar Bay"
+	name = "Aegis Ridge ROAF - Hangars - Landing Zone One - Main Hangar Bay"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/loader_hangar_room
-	name = "Aegis Ridge RAF - Hangars - Landing Zone One - Loader Operations Room"
+	name = "Aegis Ridge ROAF - Hangars - Landing Zone One - Loader Operations Room"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
-/area/lv773/indoors/landing_zone_1/raf_flight_control_room
-	name = "Aegis Ridge RAF - RAF Office - Landing Zone One - Flight Briefings Room"
+/area/lv773/indoors/landing_zone_1/roaf_flight_control_room
+	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - Flight Briefings Room"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
-/area/lv773/indoors/landing_zone_1/raf_pilots_dorm
-	name = "Aegis Ridge RAF - RAF Office - Landing Zone One - Pilots Lounge"
+/area/lv773/indoors/landing_zone_1/roaf_pilots_dorm
+	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - Pilots Lounge"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 
-/area/lv773/indoors/landing_zone_1/raf_corridor
-	name = "Aegis Ridge RAF - RAF Office - Landing Zone One - RAF Office Corridor"
+/area/lv773/indoors/landing_zone_1/roaf_corridor
+	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - ROAF Office Corridor"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
-/area/lv773/indoors/landing_zone_1/raf_technical_corridor
-	name = "Aegis Ridge RAF - RAF Office - Landing Zone One - RAF Technical Access Corridor"
+/area/lv773/indoors/landing_zone_1/roaf_technical_corridor
+	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - ROAF Technical Access Corridor"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ1
 
-/area/lv773/indoors/landing_zone_1/raf_comms_hub_1
-	name = "Aegis Ridge RAF - RAF Office - Landing Zone One - RAF Communications Hub"
+/area/lv773/indoors/landing_zone_1/roaf_comms_hub_1
+	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - ROAF Communications Hub"
 	icon_state = "comms_1"
 	ceiling = CEILING_METAL
     minimap_color = MINIMAP_AREA_COMMS
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/lz1_console
-	name = "Aegis Ridge RAF - Hangars - Landing Zone One - Dropship Alamo Console"
+	name = "Aegis Ridge ROAF - Hangars - Landing Zone One - Dropship Alamo Console"
 	icon_state = "hybrisa"
 	requires_power = FALSE
 	ceiling = CEILING_METAL
@@ -185,11 +185,11 @@
 // Landing Cargo Area
 
 /area/lv773/indoors/landing_cargo
-	name = "RAF Forward Cargo Area - Logistics Storage"
+	name = "ROAF Forward Cargo Area - Logistics Storage"
 	icon_state = "mining"
 
 /area/lv773/indoors/hospital/cryo_room
-	name = "RAF Forward Cargo Area - Crew Rest Zone"
+	name = "ROAF Forward Cargo Area - Crew Rest Zone"
 
 // Hosptial
 
@@ -295,7 +295,7 @@
 /area/lv773/indoors/motel/reception/restrooms_showers
 	name = "Motel Complex - Apartments - Restrooms and Showers"
 
-// RAF Training School
+// ROAF Training School
 
 /area/lv773/indoors/training_school
 	name = "Training School"
@@ -311,7 +311,7 @@
 /area/lv773/indoors/training_school/training_hall
 	name = "Training School - Training Hall"
 
-// RAF Base Operations
+// ROAF Base Operations
 
 /area/lv773/indoors/base_operations
 	name = "Training School"
@@ -319,79 +319,79 @@
 	ceiling = CEILING_METAL
 
 /area/lv773/indoors/base_operations/west_corridor
-	name = "RAF Base Operations - West Wing Corridor"
+	name = "ROAF Base Operations - West Wing Corridor"
 
 /area/lv773/indoors/base_operations/east_corridor
-	name = "RAF Base Operations - East Wing Corridor"
+	name = "ROAF Base Operations - East Wing Corridor"
 
 /area/lv773/indoors/base_operations/central_corridor
-	name = "RAF Base Operations - Central Corridor"
+	name = "ROAF Base Operations - Central Corridor"
 
 /area/lv773/indoors/base_operations/south_corridor
-	name = "RAF Base Operations - South Wing Corridor"
+	name = "ROAF Base Operations - South Wing Corridor"
 
 /area/lv773/indoors/base_operations/north_corridor
-	name = "RAF Base Operations - North Wing Corridor"
+	name = "ROAF Base Operations - North Wing Corridor"
 
 /area/lv773/indoors/base_operations/emergency_exit
-	name = "RAF Base Operations - Emergency Exit"
+	name = "ROAF Base Operations - Emergency Exit"
 
 /area/lv773/indoors/base_operations/barracks_one
-	name = "RAF Base Operations - RAF Dorm #1"
+	name = "ROAF Base Operations - ROAF Dorm #1"
 
 /area/lv773/indoors/base_operations/barracks_two
-	name = "RAF Base Operations - RAF Dorm #2"
+	name = "ROAF Base Operations - ROAF Dorm #2"
 
 /area/lv773/indoors/base_operations/barracks_three
-	name = "RAF Base Operations - RAF Dorm #3"
+	name = "ROAF Base Operations - ROAF Dorm #3"
 
 /area/lv773/indoors/base_operations/laundry_room
-	name = "RAF Base Operations - Laundry Room"
+	name = "ROAF Base Operations - Laundry Room"
 
 /area/lv773/indoors/base_operations/supply_room
-	name = "RAF Base Operations - Supply Room"
+	name = "ROAF Base Operations - Supply Room"
 
 /area/lv773/indoors/base_operations/bathrooms
-	name = "RAF Base Operations - Bathrooms"
+	name = "ROAF Base Operations - Bathrooms"
 
 /area/lv773/indoors/base_operations/toilets
-	name = "RAF Base Operations - Toilets"
+	name = "ROAF Base Operations - Toilets"
 
 /area/lv773/indoors/base_operations/officers_quarters
-	name = "RAF Base Operations - RAF Staff Dorm"
+	name = "ROAF Base Operations - ROAF Staff Dorm"
 
 /area/lv773/indoors/base_operations/communications_office
-	name = "RAF Base Operations - Communications Office"
+	name = "ROAF Base Operations - Communications Office"
 
 /area/lv773/indoors/base_operations/co_office
-	name = "RAF Base Operations - Chief of RAF Staff Office"
+	name = "ROAF Base Operations - Chief of ROAF Staff Office"
 
 /area/lv773/indoors/base_operations/mess_hall
-	name = "RAF Base Operations - Mess Hall"
+	name = "ROAF Base Operations - Mess Hall"
 
 /area/lv773/indoors/base_operations/kitchen
-	name = "RAF Base Operations - Kitchen"
+	name = "ROAF Base Operations - Kitchen"
 
 /area/lv773/indoors/base_operations/freezer
-	name = "RAF Base Operations - Freezer"
+	name = "ROAF Base Operations - Freezer"
 
 /area/lv773/indoors/base_operations/south_w_checkpoint
-	name = "RAF Base Operations - South-West Checkpoint"
+	name = "ROAF Base Operations - South-West Checkpoint"
 
 /area/lv773/indoors/base_operations/south_e_checkpoint
-	name = "RAF Base Operations - South-East Checkpoint"
+	name = "ROAF Base Operations - South-East Checkpoint"
 
 /area/lv773/indoors/base_operations/training_yard
-	name = "RAF Base Operations - Training Yard"
+	name = "ROAF Base Operations - Training Yard"
 
 /area/lv773/indoors/base_operations/storage_facility
-	name = "RAF Base Operations - Storage Facility"
+	name = "ROAF Base Operations - Storage Facility"
 
 /area/lv773/indoors/base_operations/unloading_zone
-	name = "RAF Base Operations - Unloading Zone"
+	name = "ROAF Base Operations - Unloading Zone"
 
 /area/lv773/indoors/base_operations/armory
-	name = "RAF Base Operations - Armory"
+	name = "ROAF Base Operations - Armory"
 
 // Engineering Sector
 
@@ -483,7 +483,7 @@
 	name = "Street - Eastern Tunnel"
 
 /area/lv773/outdoors/colony_streets
-	name = "Street - RAF Base Streets"
+	name = "Street - ROAF Base Streets"
 
 /area/lv773/outdoors/colony_streets
 	name = "Street - Southern Technical Road"

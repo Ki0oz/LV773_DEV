@@ -1,14 +1,12 @@
 /*
 ----------------------------
-RAF - Royal Air Forces
+ROAF - Royal Orbital Air Forces
 ----------------------------
 */
 
-//NOTE: Skills take heavy from PMCs
 
-
-/datum/skills/survivor/raf_rifleman
-	name = "RAF - Paratrooper - Rifleman"
+/datum/skills/survivor/roaf_rifleman
+	name = "IASF - Paratrooper - Rifleman"
 	skills = list(
 		SKILL_ENGINEER = SKILL_ENGINEER_TRAINED,
 		SKILL_CONSTRUCTION = SKILL_CONSTRUCTION_DEFAULT,
@@ -22,7 +20,7 @@ RAF - Royal Air Forces
 		SKILL_JTAC = SKILL_JTAC_TRAINED,
 	)
 
-/datum/skills/survivor/raf_sniper
+/datum/skills/survivor/roaf_sniper
 	name = "IASF - Paratrooper - Marksman"
 	skills = list(
 		SKILL_ENGINEER = SKILL_ENGINEER_TRAINED,
@@ -38,8 +36,8 @@ RAF - Royal Air Forces
 		SKILL_JTAC = SKILL_JTAC_TRAINED,
 	)
 
-/datum/skills/survivor/raf_pilot
-	name = "RAF - Pilot"
+/datum/skills/survivor/roaf_pilot
+	name = "ROAF - Pilot"
 	skills = list(
 		SKILL_CQC = SKILL_CQC_SKILLED,
 		SKILL_FIREARMS = SKILL_FIREARMS_SKILLED,
@@ -56,8 +54,8 @@ RAF - Royal Air Forces
 		SKILL_PILOT = SKILL_PILOT_EXPERT,
 	)
 
-/datum/skills/survivor/raf_engi
-	name = "RAF - Engineer"
+/datum/skills/survivor/roaf_engi
+	name = "ROAF - Engineer"
 	skills = list(
 		SKILL_CQC = SKILL_CQC_SKILLED,
 		SKILL_FIREARMS = SKILL_FIREARMS_SKILLED,
@@ -72,8 +70,8 @@ RAF - Royal Air Forces
 		SKILL_VEHICLE = SKILL_VEHICLE_SMALL,
 	)
 
-/datum/skills/survivor/raf_medic
-	name = "RAF - Paratrooper - Medic"
+/datum/skills/survivor/roaf_medic
+	name = "ROAF - Medic"
 	skills = list(
 		SKILL_MEDICAL = SKILL_MEDICAL_DOCTOR,
 		SKILL_SURGERY = SKILL_SURGERY_TRAINED,
@@ -83,8 +81,8 @@ RAF - Royal Air Forces
 		SKILL_FIREARMS = SKILL_FIREARMS_SKILLED,
 	)
 
-/datum/skills/survivor/raf_leader
-	name = "RAF - Squad Leader"
+/datum/skills/survivor/roaf_leader
+	name = "ROAF - Squad Leader"
 	skills = list(
 		SKILL_CQC = SKILL_CQC_SKILLED,
 		SKILL_FIREARMS = SKILL_FIREARMS_SKILLED,
@@ -103,8 +101,8 @@ RAF - Royal Air Forces
 		SKILL_INTEL = SKILL_INTEL_TRAINED,
 	)
 
-/datum/skills/survivor/raf_lieutenant
-	name = "RAF - Officer"
+/datum/skills/survivor/roaf_lieutenant
+	name = "ROAF - Officer"
 	skills = list(
 		SKILL_CQC = SKILL_CQC_EXPERT,
 		SKILL_FIREARMS = SKILL_FIREARMS_SKILLED,

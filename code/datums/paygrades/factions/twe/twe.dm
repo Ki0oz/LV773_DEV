@@ -217,44 +217,44 @@
 	prefix = "GenBrig."
 	pay_multiplier = 2.7
 
-/// RAF Enlisted
+/// ROAF Enlisted
 
-/datum/paygrade/twe/raf/e1
+/datum/paygrade/twe/roaf/e1
 	paygrade = PAY_SHORT_RAFE1
 	name = "Aircraftman"
 	prefix = "Acm."
 
-/datum/paygrade/twe/raf/e2
+/datum/paygrade/twe/roaf/e2
 	paygrade = PAY_SHORT_RAFE2
 	name = "Aircraftman Second Class"
 	prefix = "Acm2."
 	pay_multiplier = 2.1
 
-/datum/paygrade/twe/raf/e3
+/datum/paygrade/twe/roaf/e3
 	paygrade = PAY_SHORT_RAFE3
 	name = "Lance Corporal"
 	prefix = "LCpl."
 	pay_multiplier = 2.2
 
-/datum/paygrade/twe/raf/e4
+/datum/paygrade/twe/roaf/e4
 	paygrade = PAY_SHORT_RAFE4
 	name = "Corporal"
 	prefix = "Cpl."
 	pay_multiplier = 2.3
 
-/datum/paygrade/twe/raf/e5
+/datum/paygrade/twe/roaf/e5
 	paygrade = PAY_SHORT_RAFE5
 	name = "Sergeant"
 	prefix = "Sgt."
 	pay_multiplier = 2.7
 
-/datum/paygrade/twe/raf/e6
+/datum/paygrade/twe/roaf/e6
 	paygrade = PAY_SHORT_RAFE6
 	name = "Flight Sergeant"
 	prefix = "FSgt."
 	pay_multiplier = 2.7
 
-/datum/paygrade/twe/raf/e7
+/datum/paygrade/twe/roaf/e7
 	paygrade = PAY_SHORT_RAFE7
 	name = "Warrant Officer"
 	prefix = "WO."
@@ -262,54 +262,54 @@
 
 /// RAF Officer
 
-/datum/paygrade/twe/raf/o1
+/datum/paygrade/twe/roaf/o1
 	paygrade = PAY_SHORT_RAFO1
 	name = "Flying Officer"
 	prefix = "Fg Off."
 
-/datum/paygrade/twe/raf/o2
+/datum/paygrade/twe/roaf/o2
 	paygrade = PAY_SHORT_RAFO2
 	name = "Flight Lieutenant"
 	prefix = "Flt Lt."
 	pay_multiplier = 2.1
 
-/datum/paygrade/twe/raf/o3
+/datum/paygrade/twe/roaf/o3
 	paygrade = PAY_SHORT_RAFO3
 	name = "Squadron Leader"
 	prefix = "Sqn Ldr."
 	pay_multiplier = 2.2
 
-/datum/paygrade/twe/raf/o4
+/datum/paygrade/twe/roaf/o4
 	paygrade = PAY_SHORT_RAFO4
 	name = "Major"
 	prefix = "Maj."
 	pay_multiplier = 2.3
 
-/datum/paygrade/twe/raf/o5
+/datum/paygrade/twe/roaf/o5
 	paygrade = PAY_SHORT_RAFO5
 	name = "Wing Commander"
 	prefix = "Wg Cdr."
 	pay_multiplier = 2.7
 
-/datum/paygrade/twe/raf/o6
+/datum/paygrade/twe/roaf/o6
 	paygrade = PAY_SHORT_RAFO6
 	name = "Group Captain"
 	prefix = "Gp Capt."
 	pay_multiplier = 2.7
 
-/datum/paygrade/twe/raf/o7
+/datum/paygrade/twe/roaf/o7
 	paygrade = PAY_SHORT_RAFO7
 	name = "Air Commodore"
 	prefix = "Air Cdre."
 	pay_multiplier = 2.7
 
-/datum/paygrade/twe/raf/o8
+/datum/paygrade/twe/roaf/o8
 	paygrade = PAY_SHORT_RAFO8
 	name = "Air Vice-Marshal"
 	prefix = "AVM."
 	pay_multiplier = 2.7
 
-/datum/paygrade/twe/raf/o9
+/datum/paygrade/twe/roaf/o9
 	paygrade = PAY_SHORT_RAFO9
 	name = "Air Chief Marshal"
 	prefix = "ACM."
