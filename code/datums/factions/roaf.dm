@@ -1,6 +1,6 @@
 /datum/faction/roaf
 	name = "ROAF - Royal Orbital Air Force"
-	faction_tag = FACTION_RAF
+	faction_tag = FACTION_ROAF
 	base_icon_file = 'icons/mob/hud/factions/twe.dmi'
 
 /datum/faction/iasf/modify_hud_holder(image/holder, mob/living/carbon/human/human)
@@ -12,21 +12,21 @@
 		if(id_card)
 			_role = id_card.rank
 	switch(_role)
-		if(JOB_TWE_RAF_LIEUTENANT)
+		if(JOB_TWE_ROAF_LIEUTENANT)
 			hud_icon_state = "lieutenant"
-		if(JOB_TWE_RAF_SQUAD_LEADER)
+		if(JOB_TWE_ROAF_SQUAD_LEADER)
 			hud_icon_state = "teamleader"
-		if(JOB_TWE_RAF_SNIPER)
+		if(JOB_TWE_ROAF_SNIPER)
 			hud_icon_state = "sniper"
-		if(JOB_TWE_RAF_MEDIC)
+		if(JOB_TWE_ROAF_MEDIC)
 			hud_icon_state = "medic"
-		if(JOB_TWE_RAF_RIFLEMAN)
+		if(JOB_TWE_ROAF_RIFLEMAN)
 			hud_icon_state = "rifleman"
-		if(JOB_TWE_RAF_PILOT)
+		if(JOB_TWE_ROAF_PILOT)
 			hud_icon_state = "pilot"
-		if(JOB_TWE_RAF_ENGI)
+		if(JOB_TWE_ROAF_ENGI)
 			hud_icon_state = "engi"
-		if (JOB_TWE_RAF_SYNTH)
+		if (JOB_TWE_ROAF_SYNTH)
 			hud_icon_state = "synth"
 	if(hud_icon_state)
 		holder.overlays += image(override_icon_file ? override_icon_file : base_icon_file, human, "roaf_[hud_icon_state]")

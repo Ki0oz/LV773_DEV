@@ -104,7 +104,7 @@
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/roaf_technical_corridor
-	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - ROAF Technical Access Corridor"
+	name = "Marlowe Point ROAF - ROAF Office - Landing Zone One - ROAF Technical Access Corridor"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ1
@@ -117,7 +117,7 @@
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/lz1_console
-	name = "Aegis Ridge ROAF - Hangars - Landing Zone One - Dropship Alamo Console"
+	name = "Marlowe Point ROAF - Hangars - Landing Zone One - Dropship Alamo Console"
 	icon_state = "hybrisa"
 	requires_power = FALSE
 	ceiling = CEILING_METAL
@@ -135,31 +135,31 @@
 	ceiling = CEILING_NONE
 	linked_lz = DROPSHIP_LZ2
 
-/area/lv773/indoors/landing_zone_2/aegis_civ_spaceport_checkpoint_room
+/area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_checkpoint_room
 	name = "Aegis Civilian Spaceport - Checkpoint"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
-/area/lv773/indoors/landing_zone_2/aegis_civ_spaceport_storage
+/area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_storage
 	name = "Aegis Civilian Spaceport - Storage Depot"
 	icon_state = "security_checkpoint"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
-/area/lv773/indoors/landing_zone_2/aegis_civ_spaceport_store
+/area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_store
 	name = "Aegis Civilian Spaceport - Loading Zone"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
-/area/lv773/indoors/landing_zone_2/aegis_civ_spaceport_ship
+/area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_ship
 	name = "Aegis Civilian Spaceport - Spaceship"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
-/area/lv773/indoors/landing_zone_2/aegis_civ_spaceport/lz2_console
+/area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport/lz2_console
 	name = "Aegis Civilian Spaceport - Dropship Normandy Console"
 	icon_state = "hybrisa"
 	requires_power = FALSE
