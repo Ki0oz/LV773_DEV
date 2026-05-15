@@ -1,7 +1,7 @@
 //lv773 AREAS--------------------------------------//
 
 /area/lv773
-	name = "LV-773 Aegis Ridge"
+	name = "LV-773 Marlowe Ridge"
 	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "hybrisa"
 	can_build_special = TRUE
@@ -13,14 +13,14 @@
 //parent types
 
 /area/lv773/indoors
-	name = "Aegis Ridge - Indoors"
+	name = "Marlowe Ridge - Indoors"
 	icon_state = "cliff_blocked"//because this is a PARENT TYPE and you should not be using it and should also be changing the icon!!!
 	ceiling = CEILING_METAL
 	soundscape_playlist = SCAPE_PL_LV759_INDOORS
 	ambience_exterior = AMBIENCE_HYBRISA_INTERIOR
 
 /area/lv773/outdoors
-	name = "Aegis Ridge - Outdoors"
+	name = "Marlowe Ridge - Outdoors"
 	icon_state = "cliff_blocked"//because this is a PARENT TYPE and you should not be using it and should also be changing the icon!!!
 	ceiling = CEILING_NONE
 	soundscape_playlist = SCAPE_PL_LV759_OUTDOORS
@@ -47,7 +47,7 @@
 // Landing Zone 1
 
 /area/lv773/outdoors/landing_zone_1
-	name = "Aegis Ridge ROAF - Primary Landing Zone - Landing Zone One"
+	name = "Marlowe Ridge ROAF - Primary Landing Zone - Landing Zone One"
 	icon_state = "medical_lz1"
 	is_resin_allowed =  FALSE
 	is_landing_zone = TRUE
@@ -56,48 +56,48 @@
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/main_checkpoint
-	name = "Aegis Ridge ROAF - Primary Landing Zone - Landing Zone One - Checkpoint"
+	name = "Marlowe Ridge ROAF - Primary Landing Zone - Landing Zone One - Checkpoint"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/technical_corridor
-	name = "Aegis Ridge ROAF - Primary Landing Zone - Landing Zone One - Technical Corridor"
+	name = "Marlowe Ridge ROAF - Primary Landing Zone - Landing Zone One - Technical Corridor"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/main_hangar_bay
-	name = "Aegis Ridge ROAF - Hangars - Landing Zone One - Main Hangar Bay"
+	name = "Marlowe Ridge ROAF - Hangars - Landing Zone One - Main Hangar Bay"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/loader_hangar_room
-	name = "Aegis Ridge ROAF - Hangars - Landing Zone One - Loader Operations Room"
+	name = "Marlowe Ridge ROAF - Hangars - Landing Zone One - Loader Operations Room"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/roaf_flight_control_room
-	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - Flight Briefings Room"
+	name = "Marlowe Ridge ROAF - ROAF Office - Landing Zone One - Flight Briefings Room"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/roaf_pilots_dorm
-	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - Pilots Lounge"
+	name = "Marlowe Ridge ROAF - ROAF Office - Landing Zone One - Pilots Lounge"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
 
 /area/lv773/indoors/landing_zone_1/roaf_corridor
-	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - ROAF Office Corridor"
+	name = "Marlowe Ridge ROAF - ROAF Office - Landing Zone One - ROAF Office Corridor"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	is_landing_zone = TRUE
@@ -110,7 +110,7 @@
 	linked_lz = DROPSHIP_LZ1
 
 /area/lv773/indoors/landing_zone_1/roaf_comms_hub_1
-	name = "Aegis Ridge ROAF - ROAF Office - Landing Zone One - ROAF Communications Hub"
+	name = "Marlowe Ridge ROAF - ROAF Office - Landing Zone One - ROAF Communications Hub"
 	icon_state = "comms_1"
 	ceiling = CEILING_METAL
     minimap_color = MINIMAP_AREA_COMMS
@@ -127,7 +127,7 @@
 // Landing Zone 2
 
 /area/lv773/outdoors/landing_zone_2
-	name = "Aegis Civilian Spaceport - Landing Zone Two"
+	name = "Marlowe Civilian Spaceport - Landing Zone Two"
 	icon_state = "mining_lz2"
 	is_resin_allowed =  FALSE
 	is_landing_zone = TRUE
@@ -136,31 +136,31 @@
 	linked_lz = DROPSHIP_LZ2
 
 /area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_checkpoint_room
-	name = "Aegis Civilian Spaceport - Checkpoint"
+	name = "Marlowe Civilian Spaceport - Checkpoint"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
 /area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_storage
-	name = "Aegis Civilian Spaceport - Storage Depot"
+	name = "Marlowe Civilian Spaceport - Storage Depot"
 	icon_state = "security_checkpoint"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
 /area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_store
-	name = "Aegis Civilian Spaceport - Loading Zone"
+	name = "Marlowe Civilian Spaceport - Loading Zone"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
 /area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport_ship
-	name = "Aegis Civilian Spaceport - Spaceship"
+	name = "Marlowe Civilian Spaceport - Spaceship"
 	icon_state = "hybrisa"
 	ceiling = CEILING_METAL
 	linked_lz = DROPSHIP_LZ2
 
 /area/lv773/indoors/landing_zone_2/marlowe_civ_spaceport/lz2_console
-	name = "Aegis Civilian Spaceport - Dropship Normandy Console"
+	name = "Marlowe Civilian Spaceport - Dropship Normandy Console"
 	icon_state = "hybrisa"
 	requires_power = FALSE
 	ceiling = CEILING_METAL
@@ -199,28 +199,28 @@
 	ceiling = CEILING_METAL
 
 /area/lv773/indoors/hospital/reception
-	name = "Aegis Ridge Hospital Complex - Reception"
+	name = "Marlowe Ridge Hospital Complex - Reception"
 
 /area/lv773/indoors/hospital/waiting_lounge
-	name = "Aegis Ridge Hospital Complex - Waiting Lounge"
+	name = "Marlowe Ridge Hospital Complex - Waiting Lounge"
 
 /area/lv773/indoors/hospital/cmo_office
-	name = "Aegis Ridge Hospital Complex - Chief Medical Officer's Office"
+	name = "Marlowe Ridge Hospital Complex - Chief Medical Officer's Office"
 
 /area/lv773/indoors/hospital/restroom
-	name = "Aegis Ridge Hospital Complex - Restroom"
+	name = "Marlowe Ridge Hospital Complex - Restroom"
 
 /area/lv773/indoors/hospital/patient_ward
-    name = "Aegis Ridge Hospital Complex - Patient Ward"
+    name = "Marlowe Ridge Hospital Complex - Patient Ward"
 
 /area/lv773/indoors/hospital/operation
-	name = "Aegis Ridge Hospital Complex - Operation Theatres & Observation"
+	name = "Marlowe Ridge Hospital Complex - Operation Theatres & Observation"
 
 /area/lv773/indoors/hospital/medical_storage
-	name = "Aegis Ridge Hospital Complex - Medical Storage"
+	name = "Marlowe Ridge Hospital Complex - Medical Storage"
 
 /area/lv773/indoors/hospital/maintenance_south
-	name = "Aegis Ridge Hospital Complex - Unisex-Restroom"
+	name = "Marlowe Ridge Hospital Complex - Unisex-Restroom"
 
 // Residential District
 

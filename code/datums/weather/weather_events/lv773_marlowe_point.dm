@@ -1,5 +1,5 @@
 /datum/weather_event/aegis_light_rain
-	name = "Aegis Ridge Light Snow"
+	name = "Marlowe Ridge Light Snow"
 
 	display_name = "Light Snow"
 
@@ -18,7 +18,7 @@
 	ambience = 'sound/ambience/strata/strata_snow.ogg'
 
 /datum/weather_event/marlowe_very_light_rain
-	name = "Aegis Very Light Rain"
+	name = "Marlowe Very Light Rain"
 
 	display_name = "Very Light Rain"
 
