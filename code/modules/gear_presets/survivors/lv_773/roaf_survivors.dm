@@ -246,7 +246,7 @@
 	minimap_background = "background_roaf"
 	minimap_icon = "synth"
 
-/datum/equipment_preset/synth/survivor/iasf_synth/load_gear(mob/living/carbon/human/new_human)
+/datum/equipment_preset/synth/survivor/roaf_synth/load_gear(mob/living/carbon/human/new_human)
 	var/obj/item/clothing/under/marine/veteran/royal_marine/roaf/uniform = new()
 	var/random_number = rand(1,2)
 	switch(random_number)
@@ -278,9 +278,9 @@
 
 ///////////////////////////////////////////////////////////////////
 
-/datum/equipment_preset//survivor/roaf_lieutenantr
-	name = "Survivor - ROAF Commander"
-	assignment = "ROAF - Commander"
+/datum/equipment_preset/survivor/roaf_lieutenant
+	name = "Survivor - ROAF Wing Commander"
+	assignment = "ROAF - Wing Commander"
 	faction = FACTION_ROAF
 	faction_group = FACTION_LIST_SURVIVOR_ROAF
 	skills = /datum/skills/roaf/commander

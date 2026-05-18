@@ -1,7 +1,7 @@
 /datum/faction/roaf
 	name = "ROAF - Royal Orbital Air Force"
 	faction_tag = FACTION_ROAF
-	base_icon_file = 'icons/mob/hud/factions/twe.dmi'
+	base_icon_file = 'icons/mob/hud/factions/roaf.dmi'
 
 /datum/faction/iasf/modify_hud_holder(image/holder, mob/living/carbon/human/human)
 	var/icon/override_icon_file

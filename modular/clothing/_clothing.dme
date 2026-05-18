@@ -1,0 +1,4 @@
+#include "_clothing.dm"
+
+#include "code/ponchos.dm"
+#include "code/rain_ponchos.dm"
